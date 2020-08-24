@@ -1,0 +1,10 @@
+{
+    "autoload":{
+            "psr-4":{
+                "Util":"src/util/",
+                "Repository":"src/repository/",
+                "Controller":"src/controller/",
+                "Connection":"src/connection/"
+            }
+    }
+}
