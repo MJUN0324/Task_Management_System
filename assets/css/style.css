@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #8f0e20;
+    color: white;
+}
+
+.container-fluid div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content {
+    min-height: calc(100vh - 100px);
+  }
+
+/* Nav Bar */
+nav a {
+    color: darkgray;
+}
+
+nav .active a, nav li :hover {
+    color: white;
+}
+
+nav .active a {
+    font-weight: bold;
+}
+
+.dropdown-menu a {
+    color: #000;
+}
+
+.dropdown-menu a:hover {
+    color: #000;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: #000;
+}
+
+/* section */
+.section {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.section h1 {
+    padding-bottom: 20px;
+}
+
+/* List View */
+.list-group-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Form */
+
+
+textarea {
+    resize: none;
+}
+
+/* Footer */
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+/* Password Checker */
+.valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    content: "✔";
+  }
+  
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    content: "✖";
+  }
